@@ -1,1 +1,30 @@
-# b1a_bash_scripts
+# TD-scripting
+
+>Ce TD a pour but de manipuler le shell et notamment de savoir créer des scripts shell soi-même.
+
+Afin de tester mes scripts, je dois tout d'abord pouvoir les exécuter.
+
+Pour se faire j'utilise la commande `chmod +x mon_script.sh`.
+
+### Le jeu du plus ou moins
+>[random.sh](/random.sh)
+
+Le principe du script est simple : 
+
+Faire deviner un nombre entre 0 et 1000 à l'utilisateur en un minimum de tentatives.
+Une fois mon script exécutable, j'entre `./random.sh`.
+
+Le script vous souhaitera la bienvenue et vous fera commencer votre partie. A vous de jouez, entrez un nombre.
+L'interface vous guidera pour trouver le nombre choisi au hasard `C'est plus grand !` ou bien `C'est plus petit !`.
+Lorsque vous aurez trouvé le bon nombre, le script vous félicitera et vous mentionnera le nombre de tentatives entrées... à vous d'en faire le moins possible !
+
+### Un outil de sauvegarde
+
+### youtube-dl
+>[youtube-dl.sh](/youtube-dl.sh)
+
+Un script plutôt sympa :
+
+En effet, il vous permettra de récupérer la musique liée à la vidéo dont vous aurez saisi ( ou plutôt copié/collé ;) ) le lien (depuis Youtube par exemple).
+
+Pour se faire, lancez le script suivi du lien de votre musique à télécharger `./youtube-dl.sh https://youtube.com/lien-de-votre-musique-à-télécharger` et vous voilà avec le fichier .mp3 de votre musique favorite.
