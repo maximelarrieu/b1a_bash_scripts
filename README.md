@@ -28,3 +28,5 @@ Un script plutôt sympa :
 En effet, il vous permettra de récupérer la musique liée à la vidéo dont vous aurez saisi ( ou plutôt copié/collé ;) ) le lien (depuis Youtube par exemple).
 
 Pour se faire, lancez le script suivi du lien de votre musique à télécharger `./youtube-dl.sh https://youtube.com/lien-de-votre-musique-à-télécharger` et vous voilà avec le fichier .mp3 de votre musique favorite.
+
+*A noter sous Linux, le package `ffmpeg` est nécessaire pour une conversion en .mp3. Vous pouvez le télécharger comme n'importe quel paquet selon votre distribution : `sudo apt-get/dnf/pip install ffmpeg`.*
