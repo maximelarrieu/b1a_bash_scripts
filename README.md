@@ -25,7 +25,7 @@ Lorsque vous aurez trouvé le bon nombre, le script vous félicitera et vous men
 
 Un script plutôt sympa :
 
-En effet, il vous permettra de récupérer la musique liée à la vidéo dont vous aurez saisi ( ou plutôt copié/collé ;) ) le lien (depuis Youtube par exemple).
+En effet, il vous permettra de récupérer la musique liée à la vidéo dont vous aurez saisi ( ou plutôt copié/collé ;) ) le lien (depuis Youtube par exemple). Grâce à ce script vous pourrez également télécharger une playlist entière, en utilisant le lien d'une première musique d'une playlist prédifinie (par Youtube par exemple), l'ensemble des liens qui suivent la playlist se téléchargeront.
 
 Pour se faire, lancez le script suivi du lien de votre musique à télécharger `./youtube-dl.sh https://youtube.com/lien-de-votre-musique-à-télécharger` et vous voilà avec le fichier .mp3 de votre musique favorite.
 
