@@ -25,7 +25,14 @@ Sauvegarder une arborescence et programmer ses dates/heures de sauvegarde grâce
 
 Grâce à ce script, vous pourrez faire et prévoir une sauvegarde d'aborescence de dossiers entrée en paramètre.
 Une archive tar se créera, contenant vos dossiers et fichiers sauvegardés.
-Pour définir une récurrence de sauvegarde, nous devons utiliser `crontab`.
+
+Pour définir une récurrence de sauvegarde, nous devons utiliser `crontab`. Remplir le fichier nécessaire :
+
+`$ crontab -e`
+`0 0 0 0 5 ~/Ynov/Annee01/linux/b1a_bash_scripts/save.sh`
+
+Ici le script s'effectuera tous les vendredis.
+
 
 Pour utiliser le script, il vous suffit de faire `./save.sh votre/aborescence/a/sauvegarder`.
 
