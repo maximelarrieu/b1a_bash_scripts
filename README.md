@@ -19,6 +19,15 @@ L'interface vous guidera pour trouver le nombre choisi au hasard `C'est plus gra
 Lorsque vous aurez trouvé le bon nombre, le script vous félicitera et vous mentionnera le nombre de tentatives entrées... à vous d'en faire le moins possible !
 
 ### Un outil de sauvegarde
+>[save.sh](/save.sh)
+
+Sauvegarder une arborescence et programmer ses dates/heures de sauvegarde grâce à un script :
+
+Grâce à ce script, vous pourrez faire et prévoir une sauvegarde d'aborescence de dossiers entrée en paramètre.
+Une archive tar se créera, contenant vos dossiers et fichiers sauvegardés.
+Pour définir une récurrence de sauvegarde, nous devons utiliser `crontab`.
+
+Pour utiliser le script, il vous suffit de faire `./save.sh votre/aborescence/a/sauvegarder`.
 
 ### youtube-dl
 >[youtube-dl.sh](/youtube-dl.sh)
