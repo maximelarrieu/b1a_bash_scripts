@@ -1,9 +1,10 @@
 #!/bin/sh
 
-nbrandom=$RANDOM;
+nbrandom=($RANDOM % 1000);
 nbplayer=0;
 nbtenta=0;
 
+echo $nbrandom;
 echo -e "Bienvenue sur mon jeu!\nDevinez le nombre à trouver :)";
 while [ $nbplayer -ne $nbrandom ]; do
     echo -n "Votre proposition : "; read nbplayer	
