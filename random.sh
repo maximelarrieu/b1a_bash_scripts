@@ -1,11 +1,10 @@
 #!/bin/sh
 
-nbrandom=($RANDOM % 1000);
+nbrandom=$RANDOM;
 nbplayer=0;
 nbtenta=0;
-limit=1000;
 
-echo -e "Bienvenue sur mon jeu!\nDevinez le nombre à trouver :)"
+echo -e "Bienvenue sur mon jeu!\nDevinez le nombre à trouver :)";
 while [ $nbplayer -ne $nbrandom ]; do
     echo -n "Votre proposition : "; read nbplayer	
     if [ "$nbplayer" -lt $nbrandom ]; then
@@ -19,5 +18,5 @@ while [ $nbplayer -ne $nbrandom ]; do
 done
 
 echo "Bravo!! Vous avez trouvé $nbrandom en $nbtenta coups !"
-
+		 
 exit 0;
